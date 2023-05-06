@@ -1,0 +1,12 @@
+/* style={{textAlign:'center',color:'#510674'}} */
+.title{
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url('https://productivityandmore.com/wp-content/uploads/2022/12/income-and-expenses-illustration.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
