@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css'
-import Expenses from "./component/expenses/expenses";
+import Expenses from "./component/expenses/Expense";
 import { NewExpense } from './component/new_expense/NewExpense';
 import { getAllExpense,addExpense } from './api';
 
