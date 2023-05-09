@@ -38,7 +38,7 @@ export const NewExpenseForm = (props) => {
                 </div>
                 <div className='new-expense__control'>
                     <label htmlFor="Amount">Amount</label>
-                    <input type="number" min={0} max={1000} name='Amount' id='Amount' onChange={onChangeAmount} value={amount} />
+                    <input type="number" min={0} name='Amount' id='Amount' onChange={onChangeAmount} value={amount} />
                 </div>
                 <div className='new-expense__control'>
                     <label htmlFor="Date">Date</label>

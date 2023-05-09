@@ -10,7 +10,6 @@ const ExpenseList = (props) =>{
     {
         return(<h2>No expenses Found.</h2>)
     }
-
     return(
         <ul className="expenses-list">
             {expenses.map((each_expense) => {
@@ -23,7 +22,6 @@ const ExpenseList = (props) =>{
                 />
                 )
             })}
-            
         </ul>
     )
 }
