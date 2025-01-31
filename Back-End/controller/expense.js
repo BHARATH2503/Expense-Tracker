@@ -41,7 +41,7 @@ exports.getSomeExpense = async(req,res) => {
 exports.createExpense =async(req,res) => {
     try{
         const newExpense = req.body;
-        // console.log(req.body)
+        console.log(req.body)
         await Expense.create(newExpense);
         res.status(200).json({
             msg:'created'
