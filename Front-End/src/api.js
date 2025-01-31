@@ -1,11 +1,11 @@
 export const getAllExpense = (setExpenses) => {
-    fetch('http://localhost:4000/api/v2/expenses'||'https://expense-tracker-9mqc.onrender.com/api/v2/expenses')
+    fetch('https://expense-tracker-9mqc.onrender.com/api/v2/expenses')
         .then((response) => response.json())
             .then((expense_data) => setExpenses(expense_data.data));
 }
 
 export const addExpense = (postData = {}, callback) => {
-    fetch('http://localhost:4000/api/v2/expenses/create'||'https://expense-tracker-9mqc.onrender.com/api/v2/expenses/create',
+    fetch('https://expense-tracker-9mqc.onrender.com/api/v2/expenses/create',
     {
         method:"POST",
         headers:{
